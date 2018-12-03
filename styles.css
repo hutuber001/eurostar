@@ -1,0 +1,248 @@
+body {
+    font-family: Arial;
+}
+
+
+/********Navigatieblak met eurostar logo************/
+
+nav img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav {
+    padding: 0.2em;
+}
+
+header {
+    background-color: #06183d;
+    margin: -10px;
+}
+
+
+/*********Banner met Tekst en link************/
+
+#banner {
+    background-image: url("https://images.pexels.com/photos/196649/pexels-photo-196649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center center;
+    padding: 5em 5em 0 5em;
+    height: calc(50vh - 3.5em);
+    margin: -10px;
+    border-bottom: 8px solid rgb(36, 181, 201);
+}
+
+.top-left {
+    top: 8px;
+    right: 16px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000;
+    font-size: 2.25em;
+    ;
+}
+
+.ontdek {
+    font-size: 0.8em;
+    background-color: rgb(251, 221, 15);
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    padding: 9px 24px;
+}
+
+
+/*tekst Best beoordeelde verhalen & alle verhalen + lijn eronder */
+
+h2 {
+    color: rgb(85, 86, 90);
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+}
+
+hr {
+    width: 60px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    box-shadow: none;
+    border-color: #7cd3df
+}
+
+
+/**********/
+
+article img {
+    width: 300px;
+}
+
+article h4 {
+    color: rgb(85, 86, 90);
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+article {
+    width: 300px;
+    box-shadow: 0px 1px 1px 1px #e6e6e7;
+    border-radius: 4px 4px 4px 4px;
+    margin: 30px;
+}
+
+p {
+    padding: 15px;
+}
+
+
+/*********link knoppen ************/
+
+a {
+    font-family: sans-serif;
+    color: #10183d;
+    text-decoration: none;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.leesmeer {
+    background-color: rgb(251, 221, 15);
+    box-shadow: rgb(222, 194, 4) 0px 2px 0px 0px, rgba(0, 0, 0, 0.2) 0px 3px 2px 0px;
+    padding: 9px 24px;
+    margin-left: 60%;
+}
+
+
+/*Filter*/
+
+#filter {
+    padding: 20px 20px;
+    color: rgb(85, 86, 90);
+    font-weight: 400;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+}
+
+#filter a:hover {
+    color: gainsboro;
+}
+
+.favoriet img {
+    width: 20px;
+    background-color: rgb(36, 181, 201);
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px 0px, rgb(36, 181, 201) 0px 2px 0px 0px;
+    /* ????*/
+    border-radius: 4px 0px 0px 4px;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.download img {
+    width: 20px;
+    background-color: rgb(36, 181, 201);
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 3px 0px, rgb(36, 181, 201) 0px 2px 0px 0px;
+    /* ????*/
+    display: flex;
+    border-radius: 0px 4px 4px 0px;
+    float: right;
+    flex-direction: row-reverse;
+}
+
+.favorietknop {
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    padding: 4px;
+    border-radius: 4px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.downloadknop {
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    padding: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    ;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.opslaan {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+/* Formulier display hoor je pas te zien als je op de filterknop ziet, als overlay over de pagina */
+
+#hidden {
+    margin-top: 50px;
+}
+
+fieldset {
+    display: block;
+    padding: 20px;
+}
+
+form {
+    padding-left: 30px;
+}
+
+h3,
+h4 {
+    color: rgb(85, 86, 90);
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.filteren {
+    max-width: 960px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(230, 230, 231);
+    border-top: 1px solid rgb(230, 230, 231);
+    border-left: 1px solid rgb(230, 230, 231);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+}
+
+ul {
+    border-bottom: 1px solid rgb(230, 230, 231);
+}
+
+
+
